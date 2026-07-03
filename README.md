@@ -1,5 +1,7 @@
 # Cartographer
 
+[![skills.sh](https://skills.sh/b/vnnkl/cartographer-skill)](https://skills.sh/vnnkl/cartographer-skill)
+
 A [Claude Code skill](https://code.claude.com/docs/en/skills) for planning and steering work too big for one agent session — as a shared map of tickets on your issue tracker, kept honest against the territory.
 
 > The map is not the territory. The map is the plan — tickets, notes, assumptions; the territory is the codebase and the real world. The gap between them is your **unknowns**, and every unknown the agent hits mid-work silently becomes a guess about what you want.
@@ -10,6 +12,14 @@ Cartographer exists to shrink that gap deliberately, instead of discovering it i
 - **[A Field Guide to Fable: Finding Your Unknowns](https://x.com/trq212/status/2073100352921215386)** by Thariq (Anthropic) — the surveying discipline: locate every unknown in a quadrant, resolve it with the cheapest discovery technique, and never leave anything important as loose prose in a conversation that will be forgotten.
 
 ## Install
+
+With the [skills.sh](https://skills.sh) installer (works for Claude Code, Codex, Cursor, and other agents):
+
+```bash
+npx skills@latest add vnnkl/cartographer-skill
+```
+
+Or clone it straight into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/vnnkl/cartographer-skill ~/.claude/skills/cartographer
